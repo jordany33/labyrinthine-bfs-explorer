@@ -1,8 +1,8 @@
-#include "wavefront.h"
+#include "labyrinthine.h"
 #include "utilities.h"
 #include <iomanip>
 
-// Implementation for all the functions declared in wavefront.h
+// Implementation for all the functions declared in labyrinthine.h
 
 void PrintEnvironment(int **arry, int width, int height) {
     int obstacles, goalX, goalY, startX, startY; //input variables
@@ -182,12 +182,12 @@ void PrintEnvironment(int **arry, int width, int height) {
         std::cout << "Path Found" << std::endl; //path found
     }
 
-    //open wave.txt file and write the Environment and Result Array to the file
+    //open labyrinthine.txt file and write the Environment and Result Array to the file
     std::ofstream outfile;
-    outfile.open("wave.txt");
+    outfile.open("labyrinthine.txt");
     printToFile(arry, characterArray, width, height, outfile);
     outfile.close();
-    std::cout << "Environment and Result Array successfully outputted to \"wave.txt\"" << std::endl; //completion statement
+    std::cout << "Environment and Result Array successfully outputted to \"labyrinthine.txt\"" << std::endl; //completion statement
 
     //delete the Environment and Result Array
     for (int i = 0; i < height; i++)
@@ -350,7 +350,6 @@ void interface() {
     while(running)
     {
         //collects the input for the grid width and height
-        std::cout << "Welcome to Jordan's CSE240 WaveFront Pather\n" << std::endl;
         std::cout << "Please tell me about the grid you want to generate." << std:: endl;
 
         do

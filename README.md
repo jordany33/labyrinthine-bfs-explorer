@@ -1,6 +1,6 @@
-# WaveFront Pathfinding Implementation
+# LabyrinthineBFSExplorer
 
-This project provides an implementation of the WaveFront pathfinding algorithm using C++.
+An advanced C++ grid-based pathfinding simulation that harnesses the Breadth First Search technique, adeptly navigating through intricate mazes and obstructions to chart the most optimal course from origin to destination.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ This project provides an implementation of the WaveFront pathfinding algorithm u
 
 ## Overview
 
-The WaveFront algorithm is a pathfinding algorithm that uses a breadth-first search to find the shortest path from a starting point to a goal. This implementation provides a clear demonstration of the algorithm in a grid environment where some cells are impassable.
+LabyrinthineBFSExplorer is a pathfinding simulation that employs a breadth-first search approach to determine the shortest route from a starting point to a destination. The simulation offers a detailed representation of the algorithm's execution in a grid environment, accounting for cells that are deemed impassable.
 
 ## Structures
 
@@ -34,23 +34,22 @@ The WaveFront algorithm is a pathfinding algorithm that uses a breadth-first sea
   
 - `bfsIsValid` and `pathIsValid`: Validate potential moves within the grid.
   
-- `BreadthFirstSearch`: Implements the BFS part of the WaveFront algorithm.
+- `BreadthFirstSearch`: Implements the BFS to explore the grid and mark distances.
   
-- `findPath`: Finds and marks the shortest path from the start to the goal.
+- `findPath`: Identifies and highlights the shortest path from the start to the goal.
   
-- `resultArray`: Sets up the visual representation of the result grid.
+- `resultArray`: Constructs the visual representation of the result grid.
   
 - `printToFile`: Outputs the environment and result arrays to a file.
 
 ## Usage
 
-1. Clone the repository.
-2. Compile and run the program.
-3. Follow the on-screen prompts to input the grid dimensions, impassable terrain percentage, goal position, and start position.
-4. The program will display the grid environment and the shortest path (if available).
-5. Results are also saved to a file named "wave.txt".
+1. Clone the LabyrinthineBFSExplorer repository.
+2. Compile and initiate the program.
+3. Follow the on-screen guidelines to input the grid dimensions, the percentage of impassable terrain, the goal position, and the starting point.
+4. The simulator will visualize the grid environment and, if feasible, the shortest pathway.
+5. The outcomes are also archived in a file titled "labyrinthine.txt".
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
-
+LabyrinthineBFSExplorer is open source and accessible under the [MIT License](LICENSE).

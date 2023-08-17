@@ -1,4 +1,4 @@
-#include "wavefront.h"
+#include "labyrinthine.h"
 #include "utilities.h"
 #include <ctime>
 
