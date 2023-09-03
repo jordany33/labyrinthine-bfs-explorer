@@ -47,7 +47,7 @@ LabyrinthineBFSExplorer is a pathfinding simulation that employs a breadth-first
 1. Clone the LabyrinthineBFSExplorer repository.
 2. Compile and initiate the program.
 3. Follow the on-screen guidelines to input the grid dimensions, the percentage of impassable terrain, the goal position, and the starting point.
-4. The simulator will visualize the grid environment and, if feasible, the shortest pathway.
+4. The simulator will visualize the grid environment and the shortest pathway.
 5. The outcomes are also archived in a file titled "labyrinthine.txt".
 
 ## License
